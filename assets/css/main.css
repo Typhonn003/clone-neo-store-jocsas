@@ -8,6 +8,19 @@ body {
     font-family: 'Marvel', sans-serif;
 }
 
+button {
+    width: 50px;
+    height: 25px;
+    color: #ffffff;
+    background-color: #411a1a;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #652929;
+}
+
 .header {
     background-color: #8e3838;
     display: flex;
@@ -62,13 +75,15 @@ body {
     color: #eec81e;
     text-shadow: 0 0 2px #000000;
     font-size: 1.3em;
-    padding: 10px;
+    padding: 5px;
     margin: 0;
 }
 
 .main-section p, button {
     display: inline-block;
-    justify-content: flex-end;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .main-section img {
